@@ -9,3 +9,5 @@ console.log(`This is ${pizzaPlace}, We have ${numberOfToppings} different toppin
  } else {
    console.log('A whole lot of pizza')
  }
+ console.log(pizzaPlace);
+ console.log(numberOfToppings)
