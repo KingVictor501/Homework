@@ -45,4 +45,6 @@ areas, during typical lunch hours.
 
 [Street Food Finder](https://streetfoodfinder.com/c/FL/Tampa)
 
+Both site feel cluttered and seems to have too many steps. I feel that my app may be advantageous because I am targeting a particular audience.
+
 
