@@ -38,6 +38,8 @@ areas, during typical lunch hours.
 
 [SWOT](https://docs.google.com/document/d/1jIiCILWXIctIRZtX2U2I6jCMhTznlPz-WruwKlUrKxw/edit?usp=sharing)
 
+[Mural](https://app.mural.co/t/savvycoders7094/m/savvycoders7094/1675202521953/51743c0f063f3939026bdddc65396e1883dad620?sender=uba29cec7008805e77dd40834)
+
 ## Research
 
 ### Existing Sites
