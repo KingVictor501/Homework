@@ -7,13 +7,22 @@ function greetCustomer() {
 }
 
 //3
-function getPizzaOrder(size crust ...toppings) {
-  console.log(`One ${size} ${crust} crust pizza with ${toppings.join(", ")} coming up!`);)
+
+function getPizzaOrder(size, crust, ...toppings) {
+ console.log(toppings)
+let message = `One ${size} ${crust} crust pizza with `;
+for (let topping of toppings) {
+console.log(topping);
+message += `${topping}, `;
+}
+console.log(message)
 };
 
+getPizzaOrder("large", "hand-tossed", "sausage", "peppers");
+
 //4
-function preparePizza(size, crust, toppings) {
-  console.log("Cooking pizza");
+function preparePizza([size, crust, ...toppings]) {
+  console.log("...Cooking pizza...");
   return {
   size,
   crust,
@@ -22,3 +31,4 @@ function preparePizza(size, crust, toppings) {
 };
 
 //5
+
