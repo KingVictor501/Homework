@@ -31,4 +31,14 @@ function preparePizza([size, crust, ...toppings]) {
 };
 
 //5
+function servePizza(pizza) {
+  console.log("Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings.toString()}. Enjoy!");
+  return pizza;
+  }
 
+//6
+  const myPizza = {
+  size: "large",
+  crust: "hand-tossed",
+  toppings: ["chicken", "sausage", "peppers"]
+  };
