@@ -21,24 +21,20 @@ console.log(message)
 getPizzaOrder("large", "hand-tossed", "sausage", "peppers");
 
 //4
-function preparePizza([size, crust, ...toppings]) {
+function preparePizza([size, crust, toppings]) {
   console.log("...Cooking pizza...");
-  return {
-  size,
-  crust,
-  toppings,
+  const myPizza = {
+    size: "large",
+    crust: "hand-tossed",
+    toppings: ["chicken", "sausage", "peppers"],
 };
+return myPizza;
 };
 
 //5
-function servePizza(pizza) {
-  console.log("Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings.toString()}. Enjoy!");
-  return pizza;
+function servePizza(myPizza) {
+  console.log(`Order up! Here's your ${myPizza[`size`]} ${myPizza[`crust`]} crust pizza with ${myPizza[`toppings`]}.Enjoy!`);
+  return myPizza;
   }
 
-//6
-  const myPizza = {
-  size: "large",
-  crust: "hand-tossed",
-  toppings: ["chicken", "sausage", "peppers"]
-  };
+console.log(servePizza(preparePizza(getPizzaOrder("large", "hand-tossed", "chicken", "sausage", "peppers"))));
