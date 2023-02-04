@@ -33,7 +33,7 @@ return myPizza;
 
 //5
 function servePizza(myPizza) {
-  console.log(`Order up! Here's your ${myPizza[`size`]} ${myPizza[`crust`]} crust pizza with ${myPizza[`toppings`]}.Enjoy!`);
+  console.log(`Order up! Here's your ${myPizza.size} ${myPizza.crust} crust pizza with ${myPizza.toppings}.Enjoy!`);
   return myPizza;
   }
 
