@@ -7,3 +7,20 @@ h1, h2 {
   margin: 5px;
   border: 1px solid red;
 }
+
+#DocsPic {
+  max-width: 300px;
+  height: auto;
+}
+
+div, .ListContainer {
+  background-color: gold;
+  padding-bottom: 25px;
+}
+
+#FootLinks {
+  margin-top: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
