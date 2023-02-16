@@ -3,8 +3,11 @@ html {
 }
 
 body {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
 }
 
 h1 {
@@ -12,7 +15,11 @@ h1 {
 }
 
 img {
-  height: 100%;
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  display: block;
+
 }
 
 div {
@@ -20,13 +27,31 @@ div {
   margin: 10px;
 }
 
-#introPic {
-  float: left;
+
+
+#top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding-right: 200px;
 }
+
+@media only screen and (max-width: 700px) {
+#top {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+}
+
+
+
 
 #bio {
   float: right;
 }
+
 #bio > li {
   padding: 2px;
 }
@@ -34,3 +59,4 @@ div {
 #pro {
   width: auto;
 }
+
