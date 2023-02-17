@@ -5,20 +5,25 @@ html {
 body {
   text-align: left;
   font-size: 18px;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
+  max-width: 100%;
 }
 
-h1 {
-  font-size: 50px;
+p {
+  max-width: 100%;
 }
+
+h1, h2 {
+  font-size: 50px;
+  padding-left: 25px;
+}
+
 
 img {
   width: 450px;
   height: 300px;
   margin: auto;
   display: block;
+  padding-top: 25px;
 
 }
 
@@ -32,16 +37,21 @@ div {
 #top {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
-  padding-right: 200px;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 375px) {
 #top {
 display: flex;
 flex-direction: column;
 align-items: center;
-
+}
+img {
+  width: 270px;
+  height: 200px
+}
+p {
+  padding-left: 35px;
+  padding-right: 35px;
 }
 }
 
