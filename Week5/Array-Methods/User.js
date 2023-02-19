@@ -1,3 +1,4 @@
+let data = 
 [
   {
     "id": 1,
@@ -237,7 +238,7 @@ console.log(phoneNumbers);
 
 //create and print a list of website and email pairs (pair them in a string array or object);
 let webAndEmail = data.map(item => {
-  let webAndEmail = item.website;
+  let webList = item.website;
   let emailList = item.email;
 
   return`${webList}, ${emailList}`;
