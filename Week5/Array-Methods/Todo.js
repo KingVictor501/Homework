@@ -1,3 +1,4 @@
+let data =
 [
   {
     "userId": 1,
@@ -1201,6 +1202,9 @@
   }
 ]
 
-let user9 = data.filter(item => item.userID === 9);
+// create a list of user 9s Todos
+let user9 = data.filter(item => item.userId === 9);
+
+// find the numnber of user 9s incomplete task
 let todoList = user9.filter(item1 => item1.completed === false);
 console.log(todoList);
