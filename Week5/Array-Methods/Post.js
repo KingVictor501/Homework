@@ -603,7 +603,7 @@ let data =
 ]
 
 // create a list of user 5 posts
-let user5Posts = data.map(item => item.UserID === 5);
+let user5Posts = data.map(item => item.UserId === 5);
 console.log(user5Posts);
 
 // create a list of title and body pairs
